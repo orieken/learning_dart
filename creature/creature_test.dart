@@ -17,4 +17,8 @@ main() {
   test('creature is a dragon', () {
     expect(creature.type, equals('Dragon'));
   });
+
+  test('creature has 2 legs', () {
+    expect(creature.numberOfLegs, equals(2));
+  });
 }
