@@ -13,9 +13,9 @@ class WordWrapper {
     var result = this.word.replaceAll(' ', '');
 
     if (this.word.length <= this.size) {
-      return result.split('').join('\n');
-    } else {
       return this.word;
+    } else {
+      return result.split('').join('\n');
     }
   }
 }
