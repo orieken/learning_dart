@@ -1,0 +1,1 @@
+import 'package:angular2/platform/browser.dart'
